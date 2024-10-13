@@ -1,3 +1,4 @@
+import React from 'react';
 import Notebook from './components/Notebook.jsx';
 import AddingForm from './components/AddingForm.jsx';
 

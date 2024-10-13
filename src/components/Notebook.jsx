@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Notebook() {
   return (
     <div className="d-flex justify-content-center w-100 p-3">
