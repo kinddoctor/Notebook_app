@@ -15,7 +15,7 @@ function AddingForm () {
       <Formik
       initialValues={{ header: '', text: '' }}
       onSubmit={(values, { setSubmitting }) => {
-        axios.post('/api/v1/login', { entity: { id:'', header: values.header, text: values.text }})
+        axios.post('/api/1.0/function/Note/create', { entity: { id:'', header: values.header, text: values.text }})
           .catch((e) => {
             setError(e.message);
             console.log(e);
